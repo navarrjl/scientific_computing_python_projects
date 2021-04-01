@@ -5,11 +5,7 @@ def arithmetic(problems, answers=False):
   second_line = ""
   dash_line = ""
   answer_line = ""
-
-  # This is referenced in the loop below, but is important to define outside of loop
-  number_of_problems_left = len(problems)
-
-  # These are used later
+  #later
   formatted_problems = []
 
   # Too many problems requirement
@@ -70,3 +66,7 @@ def arithmetic(problems, answers=False):
       formatted_problems = (first_line + "\n" + second_line + "\n" + dash_line)
     
   return formatted_problems
+  # This is referenced in the loop below, but is important to define outside of loop
+  number_of_problems_left = len(problems)
+
+  # These are used
